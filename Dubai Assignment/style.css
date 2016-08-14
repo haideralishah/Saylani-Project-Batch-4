@@ -1,0 +1,100 @@
+body{
+    background: url("images/lush.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#container{
+    background-color: #ffffff;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10%; 
+    padding: 2%;
+    border-top-left-radius: 150px 40px;
+    border-top-right-radius: 50px 180px ;
+            box-shadow: 2px 2px 9px cyan;
+       
+}
+
+.header, .body{
+    width: 900px;
+    margin: 0 auto;
+}
+
+h2{
+    color: deeppink;
+}
+
+h2:first-letter{
+   font-size: 32px; 
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.icon:hover{
+     transform: scale(3);
+}
+
+.cover-img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.h2-header, ul, li{
+    display: inline;
+}
+ul{
+    position: relative;
+    left:400px; 
+}
+.body h2{
+    border-bottom: 1px dashed deeppink;
+}
+
+.parent{
+    width: 300px;
+    float: left;    
+    margin: 0 20px;    
+
+}
+
+.baap{
+    width: 700px;
+    margin: 0 auto;
+    
+}
+.clear{
+    clear: both;
+}
+#parent2{
+    background: url(images/roomBackGround.jpg);
+}
+
+#parent3{
+    background: url(images/resTaurantBackGround.jpg);
+}
+
+.child{
+    display: none;
+}
+ #parent2:hover #show2, #parent3:hover #show3 {
+            display: block;
+
+}
+.parent img{
+    display: block;
+    margin: 0 auto;
+    border: 1px inset #ffffff;
+     box-shadow: 2px 2px 9px cyan;
+     padding: 2px;
+}
+
+
+
+    #bindas:first-letter{
+        color: red;
+    }
